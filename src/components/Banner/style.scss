@@ -1,0 +1,16 @@
+.banner {
+    .card-img-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        h5{
+            color: rgb(28, 25, 180);
+        }
+        p{
+            color: red;
+        }
+    }
+   
+    
+}
