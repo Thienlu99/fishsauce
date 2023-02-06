@@ -1,444 +1,147 @@
 {
-    "phoneItem": [
-      {
-        "id": 0,
-        "producer": "Apple",
-        "name": "iPhone 14 Pro Max",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-vang-thumb-600x600.jpg",
-        "priceNew": 36000000,
-        "priceOld": 40000000,
-        "memoryIn": 256,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tren-13-trieu",
-        "stock": 10,
-        "sold": 10
-      },
-      {
-        "id": 1,
-        "producer": "Apple",
-        "name": "iPhone 13",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864980285944519_iphone-13-pro-dd-2-128-256-512gb.jpg",
-        "priceNew": 24000000,
-        "priceOld": 30000000,
-        "memoryIn": 128,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tren-13-trieu",
-        "stock": 20,
-        "sold": 60
-      },
-      {
-        "id": 2,
-        "producer": "Apple",
-        "name": "iPhone 12",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/1/637686973775896947_ip-12-dd.jpg",
-        "priceNew": 16000000,
-        "priceOld": 19000000,
-        "memoryIn": 128,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tren-13-trieu",
-        "sale": 15,
-        "stock": 10,
-        "sold": 80
-      },
-      {
-        "id": 3,
-        "producer": "Apple",
-        "name": "iPhone 11",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/10/26/637393169370871358_ip-11-dd.png",
-        "priceNew": 11490000,
-        "priceOld": 14900000,
-        "memoryIn": 128,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-7-13-trieu",
-        "stock": 10,
-        "sold": 60
-      },
-      {
-        "id": 4,
-        "producer": "Apple",
-        "name": "iPhone SE 2022",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/9/637823924290106355_iphone-se-2022-dd.jpg",
-        "priceNew": 11490000,
-        "priceOld": 12900000,
-        "memoryIn": 128,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-7-13-trieu",
-        "sale": 20,
-        "stock": 10,
-        "sold": 30
-      },
-      {
-        "id": 5,
-        "producer": "SamSung",
-        "name": "Samsung Galaxy A03s",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/8/22/637652432564767587_samsung-a03s-xanh-dd.jpg",
-        "priceNew": 3190000,
-        "priceOld": 3600000,
-        "memoryIn": 128,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-2-4-trieu",
-        "sale": 20,
-        "stock": 20,
-        "sold": 30
-      },
-      {
-        "id": 6,
-        "producer": "SamSung",
-        "name": "Samsung Galaxy S22 Bora Purple",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/22/637994555957667673_samsung-galaxy-s22-bora-purple-dd-docquyen.jpg",
-        "priceNew": 15900000,
-        "priceOld": 21900000,
-        "memoryIn": 128,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tren-13-trieu",
-        "sale": 25,
-        "stock": 15,
-        "sold": 40
-      },
-      {
-        "id": 7,
-        "producer": "Xiaomi",
-        "name": "Xiaomi",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/25/637864982144816513_iphone-13-pro-max-dd-2-128-256-512-1tb.jpg",
-        "priceNew": 2700000,
-        "priceOld": 3000000,
-        "memoryIn": 128,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-2-4-trieu",
-        "stock": 30,
-        "sold": 67
-      },
-      {
-        "id": 8,
-        "producer": "Oppo",
-        "name": "OPPO Reno8 Z 5G",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/10/637957287880226317_oppo-reno8-z-dd-icon.jpg",
-        "priceNew": 10049000,
-        "priceOld": 12490000,
-        "memoryIn": 256,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-7-13-trieu",
-        "stock": 10,
-        "sold": 20
-      },
-      {
-        "id": 9,
-        "producer": "Nokia",
-        "name": "Nokia 105 DS 4G",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/1/637607682248137712_nokia-105-4g-den-dd.jpg",
-        "priceNew": 750000,
-        "priceOld": 850000,
-        "memoryIn": 256,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "duoi-2-trieu",
-        "stock": 10,
-        "sold": 10
-      },
-      {
-        "id": 10,
-        "producer": "Nokia",
-        "name": "Nokia G21",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/7/21/637939995401683559_vivo-t1x-xanh-dd.jpg",
-        "priceNew": 490000,
-        "priceOld": 690000,
-        "memoryIn": 256,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "duoi-2-trieu",
-        "stock": 10,
-        "sold": 10
-      },
-      {
-        "id": 11,
-        "producer": "Nokia",
-        "name": "Nokia C30",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/8/18/637649063877578070_nokia-c30-xanh-dd.jpg",
-        "priceNew": 2900000,
-        "priceOld": 4900000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-2-4-trieu",
-        "stock": 10,
-        "sold": 10
-      },
-      {
-        "id": 12,
-        "producer": "Oppo",
-        "name": "OPPO Find X Series",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/8/637982295034143124_oppo-find-x5-pro-dd.jpg",
-        "priceNew": 27900000,
-        "priceOld": 30000000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tren-13-trieu",
-        "stock": 10,
-        "sold": 35
-      },
-      {
-        "id": 13,
-        "producer": "Nokia",
-        "name": "Nokia G11 Plus",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/5/4/637872590554647546_oppo-reno7-4g-dd.jpg",
-        "priceNew": 7490000,
-        "priceOld": 7990000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-7-13-trieu",
-        "stock": 10,
-        "sold": 52
-      },
-      {
-        "id": 14,
-        "producer": "Oppo",
-        "name": "Oppo Reno7 5G",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/8/10/637957287880226317_oppo-reno8-4g-dd-icon.jpg",
-        "priceNew": 6990000,
-        "priceOld": 7990000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-4-7-trieu",
-        "sale": 20,
-        "stock": 10,
-        "sold": 70
-      },
-      {
-        "id": 15,
-        "producer": "Nokia",
-        "name": "Nokia 215 DS 4G",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/13/637408832230600670_nokia-215-xanh-dd.png",
-        "priceNew": 950000,
-        "priceOld": 1000000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "duoi-2-trieu",
-        "stock": 10,
-        "sold": 10
-      },
-      {
-        "id": 16,
-        "producer": "Vivo",
-        "name": "Vivo Y33s",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/3/15/637829405985657624_vivo-y33s-vang-dd.jpg",
-        "priceNew": 2900000,
-        "priceOld": 4900000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-2-4-trieu",
-        "sale": 20,
-        "stock": 10,
-        "sold": 60
-      },
-      {
-        "id": 17,
-        "producer": "Oppo",
-        "name": "OPPO A57",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/6/27/637919434798579438_oppo-a57-dd.jpg",
-        "priceNew": 6900000,
-        "priceOld": 7900000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-4-7-trieu",
-        "stock": 10,
-        "sold": 69
-      },
-      {
-        "id": 18,
-        "producer": "Xiaomi",
-        "name": "Xiaomi Redmi Note 11S 6GB-128B",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/2/28/637816731075634766_xiaomi-redmi-note-11s-xam-dd-2.jpg",
-        "priceNew": 5900000,
-        "priceOld": 6190000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-4-7-trieu",
-        "stock": 10,
-        "sold": 50
-      },
-      {
-        "id": 19,
-        "producer": "Vivo",
-        "name": "Vivo Y15s",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/10/25/637707822857432352_00779950-vivo-y15s-trang-xanh-dd.jpg",
-        "priceNew": 2900000,
-        "priceOld": 3900000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-2-4-trieu",
-        "sale": 15,
-        "stock": 10,
-        "sold": 56
-      },
-      {
-        "id": 20,
-        "producer": "Vivo",
-        "name": "Vivo Y22s",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/9/637983398315589960_vivo-y22s-xanh-dd.jpg",
-        "priceNew": 5900000,
-        "priceOld": 6900000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tu-4-7-trieu",
-        "stock": 10,
-        "sold": 50
-      },
-      {
-        "id": 21,
-        "producer": "SamSung",
-        "name": "Samsung Galaxy Z Fold4 5G",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/9/12/637985736585000612_samsung-galaxy-z-fold4-kem-dd-tra-gop.jpg",
-        "priceNew": 3700000,
-        "priceOld": 4000000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tren-13-trieu",
-        "stock": 10,
-        "sold": 60
-      },
-      {
-        "id": 22,
-        "producer": "Apple",
-        "name": "Iphone 13 mini",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://cdn.tgdd.vn/Products/Images/42/236780/iphone-13-mini-midnight-1-600x600.jpg",
-        "priceNew": 16990000,
-        "priceOld": 21990000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tren-13-trieu",
-        "stock": 10,
-        "sold": 57
-      },
-      {
-        "id": 23,
-        "producer": "Apple",
-        "name": "Iphone 14 Plus",
-        "color": [
-          "Trắng",
-          "Đen",
-          "Tím"
-        ],
-        "img": "https://cdn.tgdd.vn/Products/Images/42/289712/iPhone-14-thumb-trang-600x600.jpg",
-        "priceNew": 36990000,
-        "priceOld": 38990000,
-        "memoryIn": null,
-        "description": "Sang xịn mịn",
-        "descriptionPrice": "tren-13-trieu",
-        "stock": 10,
-        "sold": 20
-      }
+    "productItem": [
+        {
+          "id": 1,
+          "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+          "price": 109.95,
+          "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+          "category": "nuoc mam",
+          "image": "/img/mam nem.jpeg",
+          "rating": {
+            "rate": 3.9,
+            "count": 120
+          }
+        },
+        {
+          "id": 2,
+          "title": "Mens Casual Premium Slim Fit T-Shirts ",
+          "price": 22.3,
+          "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+          "category": "nuoc mam",
+          "image": "/img/MS 18.jpeg",
+          "rating": {
+            "rate": 4.1,
+            "count": 259
+          }
+        },
+        {
+          "id": 3,
+          "title": "Mens Cotton Jacket",
+          "price": 55.99,
+          "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+          "category": "nuoc mam",
+          "image": "/img/MS 32.jpeg",
+          "rating": {
+            "rate": 4.7,
+            "count": 500
+          }
+        },
+        {
+          "id": 4,
+          "title": "Mens Casual Slim Fit",
+          "price": 15.99,
+          "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+          "category": "nuoc mam",
+          "image": "/img/MS5L.JPG",
+          "rating": {
+            "rate": 2.1,
+            "count": 430
+          }
+        },
+        {
+          "id": 5,
+          "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+          "price": 695,
+          "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+          "category": "jewelery",
+          "image": "/img/MS30.JPG",
+          "rating": {
+            "rate": 4.6,
+            "count": 400
+          }
+        },
+        {
+          "id": 6,
+          "title": "Solid Gold Petite Micropave ",
+          "price": 168,
+          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+          "category": "jewelery",
+          "image": "/img/MS32.JPG",
+          "rating": {
+            "rate": 3.9,
+            "count": 70
+          }
+        },
+        {
+            "id": 6,
+            "title": "Solid Gold Petite Micropave ",
+            "price": 168,
+            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+            "category": "jewelery",
+            "image": "/img/MS35_0.JPG",
+            "rating": {
+              "rate": 3.9,
+              "count": 70
+            }
+          },
+          {
+            "id": 7,
+            "title": "Solid Gold Petite Micropave ",
+            "price": 168,
+            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+            "category": "jewelery",
+            "image": "/img/MS35.JPG",
+            "rating": {
+              "rate": 3.9,
+              "count": 70
+            }
+          },
+          {
+            "id": 8,
+            "title": "Solid Gold Petite Micropave ",
+            "price": 168,
+            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+            "category": "jewelery",
+            "image": "/img/MS40.JPG",
+            "rating": {
+              "rate": 3.9,
+              "count": 70
+            }
+          },
+          {
+            "id": 9,
+            "title": "Solid Gold Petite Micropave ",
+            "price": 168,
+            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+            "category": "jewelery",
+            "image": "/img/MS45.JPG",
+            "rating": {
+              "rate": 3.9,
+              "count": 70
+            }
+          }, {
+            "id": 10,
+            "title": "Solid Gold Petite Micropave ",
+            "price": 168,
+            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+            "category": "jewelery",
+            "image": "/img/Ruoc.jpeg",
+            "rating": {
+              "rate": 3.9,
+              "count": 70
+            }
+          }, {
+            "id": 11,
+            "title": "Solid Gold Petite Micropave ",
+            "price": 168,
+            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+            "category": "jewelery",
+            "image": "/img/Ruoc.JPG",
+            "rating": {
+              "rate": 3.9,
+              "count": 70
+            }
+          }
     ],
     "user": [
       {
