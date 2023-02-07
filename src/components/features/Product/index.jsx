@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import Loading from "../../Loading/Loading";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import "./style.css";
 
 function Product(props) {
   const [data, setData] = useState([]);
@@ -14,7 +16,10 @@ function Product(props) {
       if (componentMounted) {
         setData(await response.clone().json());
         setFilter(await response.json());
+        setTimeout(() => {
         setLoading(false);
+        // console.log(filter)
+        }, "1000")
       }
       return () => {
         componentMounted = false;
@@ -24,7 +29,24 @@ function Product(props) {
   }, []);
   //loading
   const Loading = () => {
-    return <>Loading...</>;
+    
+      return (
+        <>
+          <div className="col-md-3 " >
+            <div className="skeleton" style={{height:350}} />
+          </div>
+          <div className="col-md-3 ">
+            <div className="skeleton" style={{height:350}} />
+          </div>
+          <div className="col-md-3 ">
+            <div className="skeleton" style={{height:350}} />
+          </div>
+          <div className="col-md-3 ">
+            <div className="skeleton" style={{height:350}} />
+          </div>
+        </>
+      );
+    
   };
   //show button
   const ShowProduct = () => {
@@ -37,25 +59,27 @@ function Product(props) {
         </div>
         {filter.map((product) => {
           return (
-            <>
-            
-              <div className="col-md-3 mb-4" key={product.id}>
-                <div className="card h-100 text-center p-4" key={product.id} >
-                  <img height="300px"
-                    src={product.image}
-                    className="card-img-top"
-                    alt={product.title}
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title mb-0">{product.title.substring(0,12)}...</h5>
-                    <p className="card-text lead fw-bold">{product.price} VNĐ</p>
-                    <a href="#" className="btn btn-outline-dark">
-                     Mua Ngay
-                    </a>
-                  </div>
+            <div className="col-md-3 mb-4" key={product.id}>
+              <div className="card h-100 text-center p-4">
+                <img
+                  height="300px"
+                  src={product.image}
+                  className="card-img-top"
+                  alt={product.title}
+                />
+                <div className="card-body">
+                  <h5 className="card-title mb-0">
+                    {product.title.substring(0, 12)}...
+                  </h5>
+                  <p className="card-text lead fw-bold">{product.price} VNĐ</p>
+                  <a href="#" className="btn btn-outline-dark">
+                    Mua Ngay
+                  </a>
                 </div>
               </div>
-            </>
+              
+            </div>
+            
           );
         })}
       </>
@@ -71,9 +95,7 @@ function Product(props) {
       </div>
 
       <div className="row justify-content-center">
-       
-          {loanding ? <Loading /> : <ShowProduct />}
-        
+        {loanding ? <Loading /> : <ShowProduct />}
       </div>
     </div>
   );
