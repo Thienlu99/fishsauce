@@ -49,13 +49,21 @@ function Product(props) {
     
   };
   //show button
+  const onHandleClickFilter = (category) =>{
+    const updateList = data.filter((x) => x.category === category);
+    setFilter(updateList)
+
+  }
+  const onHandleClick = () =>{
+    setFilter(data)
+  }
   const ShowProduct = () => {
     return (
       <>
         <div className="button d-flex justify-content-center mb-5 pb-5">
-          <button className="btn btn-outline-dark me-2">Tất cả</button>
-          <button className="btn btn-outline-dark me-2">Nước Mắm</button>
-          <button className="btn btn-outline-dark me-2">Ruốc</button>
+          <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClick()}}>Tất cả</button>
+          <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClickFilter("nuoc mam")}}>Nước Mắm</button>
+          <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClickFilter("mam ruoc")}}>Ruốc</button>
         </div>
         {filter.map((product) => {
           return (
