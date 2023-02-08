@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import Loading from "../../Loading/Loading";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+// import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import ProductItem from "./component/ProductItem/ProductItem";
 import "./style.css";
 
 function Product(props) {
@@ -54,42 +55,18 @@ function Product(props) {
     setFilter(updateList)
 
   }
-  const onHandleClick = () =>{
+  const onHandleClickAll = () =>{
     setFilter(data)
   }
   const ShowProduct = () => {
     return (
       <>
         <div className="button d-flex justify-content-center mb-5 pb-5">
-          <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClick()}}>Tất cả</button>
+          <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClickAll()}}>Tất cả</button>
           <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClickFilter("nuoc mam")}}>Nước Mắm</button>
           <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClickFilter("mam ruoc")}}>Ruốc</button>
         </div>
-        {filter.map((product) => {
-          return (
-            <div className="col-md-3 mb-4" key={product.id}>
-              <div className="card h-100 text-center p-4">
-                <img
-                  height="300px"
-                  src={product.image}
-                  className="card-img-top"
-                  alt={product.title}
-                />
-                <div className="card-body">
-                  <h5 className="card-title mb-0">
-                    {product.title.substring(0, 12)}...
-                  </h5>
-                  <p className="card-text lead fw-bold">{product.price} VNĐ</p>
-                  <a href="#" className="btn btn-outline-dark">
-                    Mua Ngay
-                  </a>
-                </div>
-              </div>
-              
-            </div>
-            
-          );
-        })}
+            <ProductItem filter={filter} />      
       </>
     );
   };
