@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
 // import Loading from "../../Loading/Loading";
 // import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import ProductItem from "./component/ProductItem/ProductItem";
@@ -20,7 +21,7 @@ function Product(props) {
         setTimeout(() => {
         setLoading(false);
         // console.log(filter)
-        }, "1000")
+        }, 1000)
       }
       return () => {
         componentMounted = false;
@@ -66,23 +67,29 @@ function Product(props) {
           <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClickFilter("nuoc mam")}}>Nước Mắm</button>
           <button className="btn btn-outline-dark me-2" onClick={()=>{onHandleClickFilter("mam ruoc")}}>Ruốc</button>
         </div>
-            <ProductItem filter={filter} />      
+        <ProductItem filter={filter} />     
       </>
     );
   };
   return (
+    <>
     <div className="container my-5 py-5">
       <div className="row">
         <div className="col-12 mb-5">
           <h1 className="display-6 fw-bolder text-center">Sản phẩm mới</h1>
           <hr />
         </div>
+        
       </div>
 
       <div className="row justify-content-center">
         {loanding ? <Loading /> : <ShowProduct />}
       </div>
+
+      {/* <Outlet /> */}
     </div>
+    
+    </>
   );
 }
 

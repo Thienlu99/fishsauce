@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import { NavLink, Outlet } from "react-router-dom";
 
 ProductItem.propTypes = {
   filter : PropTypes.array.isRequired,
@@ -24,12 +25,11 @@ function ProductItem(props) {
                 {product.title.substring(0, 12)}...
               </h5>
               <p className="card-text lead fw-bold">{product.price} VNĐ</p>
-              <a href="#" className="btn btn-outline-dark">
-                Mua Ngay
-              </a>
+              <NavLink to={`/products/${product.id}`} className="btn btn-outline-dark">
+                Xem chi tiết
+              </NavLink>
             </div>
           </div>
-          
         </div>
         
       );

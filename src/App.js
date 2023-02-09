@@ -3,15 +3,14 @@
 
 import Banner from "./components/Banner/Banner";
 import Product from "./components/features/Product";
-import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home";
+
 
 
 function App() {
   return (
     <>
-    <Navbar />
     <Banner />
-    <Product />
     </>
   );
 }
